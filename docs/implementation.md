@@ -1,4 +1,4 @@
-# Blank 1.7.1 implementation guide
+# Blank 1.7.0 implementation guide
 
 This project uses the PNDS Blank template.
 Implement the current user request. When assigned the creator handoff, follow
