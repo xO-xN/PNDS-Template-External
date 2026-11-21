@@ -1,0 +1,36 @@
+{
+  "audio": {
+    "defaultMode": "external",
+    "supportedModes": [
+      "external"
+    ]
+  },
+  "description": "",
+  "id": "pnds-blank-template",
+  "name": "PNDS Blank",
+  "schemaVersion": 2,
+  "scoreServer": {
+    "browserParticipation": 1,
+    "entry": "server.js",
+    "monitorPort": 6869,
+    "performerPort": 6868,
+    "runtimePorts": 1,
+    "supportsPerformerUrl": true,
+    "workingDirectory": "."
+  },
+  "sharedLibraries": [
+    {
+      "id": "express",
+      "version": "5.3.0"
+    },
+    {
+      "id": "socket.io",
+      "version": "4.8.4"
+    },
+    {
+      "id": "osc-min",
+      "version": "2.1.2"
+    }
+  ],
+  "version": "0.1.0"
+}
